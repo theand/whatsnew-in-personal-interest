@@ -51,7 +51,7 @@
     + [jQuery](#jquery)
     + [Apache Commons](#apache-commons)
     + [Guava](#guava)
-    + [Atomikos XA](#atomikos-xa)
+    + [Atomikos Transactions](#atomikos-transactions)
     + [MyBatis](#mybatis)
     + [Underscore.js](#underscorejs)
     + [lodash](#lodash)
@@ -699,7 +699,7 @@ TODO
 
 
 
-### Atomikos XA
+### Atomikos Transactions
  - https://www.atomikos.com/Main/ReleaseNotes
 
 
