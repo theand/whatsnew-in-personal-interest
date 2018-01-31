@@ -1,46 +1,16 @@
-# whatsnew-in-personal-interest
+{{TOC}}
+
+# whatsnew-personal-collection
 
  - what's new, release notes, change logs, migration guides
-
-## Editor/IDE
-
-### IntelliJ
-
- - https://www.jetbrains.com/idea/whatsnew/
-
-### WebStorm
- - https://www.jetbrains.com/webstorm/whatsnew/
-
-
-### RubyMine
- - https://www.jetbrains.com/ruby/whatsnew/
-
-
-### PyCharm
- - https://www.jetbrains.com/pycharm/whatsnew/
-
-### PHPStorm
- - https://www.jetbrains.com/phpstorm/whatsnew/
-
-### datagrip
- - https://www.jetbrains.com/datagrip/whatsnew/
-
-### vim
-
-
-### Sublime Text
-
-
-### Atom
-
-
-### VS Code
 
 
 ## Language
 
 ### Ruby
-TODO https://www.ruby-lang.org/en/news/
+ TODO
+
+ - https://www.ruby-lang.org/en/news/
 
  - https://staging-ruby-lang.herokuapp.com/ko/news/2017/12/25/ruby-2-5-0-released/
 
@@ -61,7 +31,7 @@ TODO https://www.ruby-lang.org/en/news/
 ### Python
  - https://wiki.python.org/moin/Python2orPython3
 
-TODO
+ TODO
  - https://www.python.org/downloads/
  - https://www.python.org/downloads/release/python-360b1/
 
@@ -85,7 +55,7 @@ TODO
 
 
 ### Java (Java SE)
-TODO
+ TODO
  - https://docs.oracle.com/javase/7/docs/index.html
  - https://docs.oracle.com/javase/8/
  - https://docs.oracle.com/javase/9/
@@ -101,18 +71,22 @@ TODO
  - https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/index.html
 
 
-JDK5
+ JDK5
  - http://www.oracle.com/technetwork/java/javase/relnotes-139183.html
 
-JMC
+ JMC
  - http://www.oracle.com/technetwork/java/javase/jmc55-release-notes-2412446.html
 
 ### GO
  - https://pocketgophers.com/go-release-timeline/
 
 ### JS
+TODO
+
 
 ### TypeScript
+TODO
+
 
 ### PHP
 
@@ -127,6 +101,20 @@ JMC
  - http://php.net/manual/en/migration55.php
  - http://php.net/manual/en/migration54.php
  - http://php.net/manual/en/migration53.php
+
+----
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -167,11 +155,6 @@ JMC
  - https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-1.3.0-Full-Release-Notes
  - https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-1.2-Release-Notes
  - https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-1.1-Release-Notes
-
-
-
-
-
 
 
 
@@ -221,18 +204,14 @@ TODO
  - https://github.com/laravel/framework/blob/5.5/CHANGELOG-5.3.md
  - https://github.com/laravel/framework/blob/5.5/CHANGELOG-5.2.md
 
-### jQuery
-TODO http://blog.jquery.com/
-
- - https://gist.github.com/teppeis/9264080
-
- - http://blog.jquery.com/2014/12/18/jquery-1-11-2-and-2-1-3-released-safari-fail-safe-edition/
-
 ### vue.js
+TODO
+
 
 ### Netty
-TODO http://netty.io/wiki/index.html
-TODO http://netty.io/news/index.html
+TODO
+http://netty.io/wiki/index.html
+http://netty.io/news/index.html
 
  - http://netty.io/news/2017/08/25/4-0-51-Final-4-1-15-Final.html
 
@@ -240,64 +219,33 @@ TODO http://netty.io/news/index.html
  - http://netty.io/wiki/new-and-noteworthy-in-4.0.html
 
 ### Node.js
-TODO https://nodejs.org/en/blog/
+TODO
+https://nodejs.org/en/blog/
 
  - https://nodejs.org/en/blog/release/v4.0.0/
 
-
-## Web Server / Web Application Server
-
-### J2EE
- - https://docs.oracle.com/javaee/7/tutorial/index.html
-
-
-### Apache Tomcat
- - http://tomcat.apache.org/tomcat-9.0-doc/changelog.html
- - http://tomcat.apache.org/tomcat-8.5-doc/changelog.html
- - http://tomcat.apache.org/tomcat-8.0-doc/changelog.html
- - http://tomcat.apache.org/tomcat-7.0-doc/changelog.html
- - http://tomcat.apache.org/tomcat-6.0-doc/changelog.html
-
- - http://tomcat.apache.org/connectors-doc/miscellaneous/changelog.html
-
- - https://tomcat.apache.org/tomcat-8.5-doc/RELEASE-NOTES.txt
- - https://tomcat.apache.org/tomcat-8.0-doc/RELEASE-NOTES.txt
- - https://tomcat.apache.org/tomcat-7.0-doc/RELEASE-NOTES.txt
-
-### uWSGI
-
- - http://uwsgi-docs.readthedocs.io/en/latest/index.html
- - http://uwsgi-docs.readthedocs.io/en/latest/Changelog-1.9.html
- - http://uwsgi-docs.readthedocs.io/en/latest/Changelog-2.0.html
-
-
-## Web Browsers
-
-### Safari
- - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Introduction/Introduction.html#//apple_ref/doc/uid/TP40014305-CH1-SW1
-
- - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_11_1.html#//apple_ref/doc/uid/TP40014305-CH14-SW1
- - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_11_0.html#//apple_ref/doc/uid/TP40014305-CH13-SW1
- - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_1.html#//apple_ref/doc/uid/TP40014305-CH12-SW1
- - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_0.html#//apple_ref/doc/uid/TP40014305-CH11-SW1
- - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_9_1.html#//apple_ref/doc/uid/TP40014305-CH10-SW1
- - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_9_0.html#//apple_ref/doc/uid/TP40014305-CH9-SW5
- - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_8_0.html#//apple_ref/doc/uid/TP40014305-CH7-SW1
- - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_7_1.html#//apple_ref/doc/uid/TP40014305-CH6-SW1
- - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_7_0.html#//apple_ref/doc/uid/TP40014305-CH5-SW1
- - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_6_0.html#//apple_ref/doc/uid/TP40014305-CH3-SW1
- - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_4_0.html#//apple_ref/doc/uid/TP40014305-CH4-SW1
+----
 
 
 
-### Chrome
-TODO https://chromereleases.googleblog.com/
-TODO https://www.chromium.org/developers/calendar
+
+
+
+
+
+
+
+
+
+
+
 
 ## DB
 
 ### MySQL
-TODO http://mysqlrelease.com/
+ TODO
+
+http://mysqlrelease.com/
 
  - https://dev.mysql.com/doc/relnotes/mysql/8.0/en/
  - https://dev.mysql.com/doc/relnotes/mysql/5.7/en/
@@ -347,11 +295,179 @@ TODO http://mysqlrelease.com/
  - https://docs.oracle.com/database/121/nav/portal_11.htm
  - https://docs.oracle.com/cd/E11882_01/server.112/e41360/toc.htm
 
+
+ ----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## OS
+
+### Ubuntu
+TODO 
+
+http://releases.ubuntu.com/
+ - http://releases.ubuntu.com/14.04/
+
+### iOS
+TODO
+
+
+### macOS
+TODO
+
+
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Web Server / Web Application Server
+
+### Apache HTTPD
+TODO
+
+### nginx
+TODO
+
+### J2EE
+ - https://docs.oracle.com/javaee/7/tutorial/index.html
+
+
+### Apache Tomcat
+ - http://tomcat.apache.org/tomcat-9.0-doc/changelog.html
+ - http://tomcat.apache.org/tomcat-8.5-doc/changelog.html
+ - http://tomcat.apache.org/tomcat-8.0-doc/changelog.html
+ - http://tomcat.apache.org/tomcat-7.0-doc/changelog.html
+ - http://tomcat.apache.org/tomcat-6.0-doc/changelog.html
+
+ - http://tomcat.apache.org/connectors-doc/miscellaneous/changelog.html
+
+ - https://tomcat.apache.org/tomcat-8.5-doc/RELEASE-NOTES.txt
+ - https://tomcat.apache.org/tomcat-8.0-doc/RELEASE-NOTES.txt
+ - https://tomcat.apache.org/tomcat-7.0-doc/RELEASE-NOTES.txt
+
+### uWSGI
+
+ - http://uwsgi-docs.readthedocs.io/en/latest/index.html
+ - http://uwsgi-docs.readthedocs.io/en/latest/Changelog-1.9.html
+ - http://uwsgi-docs.readthedocs.io/en/latest/Changelog-2.0.html
+
+### Phusion Passenger
+TODO
+
+
+### rack
+TODO
+
+### Servlet
+TODO
+
+ ----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Web Browsers
+
+### Safari
+ - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Introduction/Introduction.html#//apple_ref/doc/uid/TP40014305-CH1-SW1
+
+ - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_11_1.html#//apple_ref/doc/uid/TP40014305-CH14-SW1
+ - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_11_0.html#//apple_ref/doc/uid/TP40014305-CH13-SW1
+ - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_1.html#//apple_ref/doc/uid/TP40014305-CH12-SW1
+ - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_0.html#//apple_ref/doc/uid/TP40014305-CH11-SW1
+ - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_9_1.html#//apple_ref/doc/uid/TP40014305-CH10-SW1
+ - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_9_0.html#//apple_ref/doc/uid/TP40014305-CH9-SW5
+ - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_8_0.html#//apple_ref/doc/uid/TP40014305-CH7-SW1
+ - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_7_1.html#//apple_ref/doc/uid/TP40014305-CH6-SW1
+ - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_7_0.html#//apple_ref/doc/uid/TP40014305-CH5-SW1
+ - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_6_0.html#//apple_ref/doc/uid/TP40014305-CH3-SW1
+ - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_4_0.html#//apple_ref/doc/uid/TP40014305-CH4-SW1
+
+
+### Chrome
+TODO https://chromereleases.googleblog.com/
+TODO https://www.chromium.org/developers/calendar
+
+
+### Firefox
+
+
+### Opera
+
+
+### IE/Edge
+
+
+
+ ----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Library
 
 
+### jQuery
+TODO
+http://blog.jquery.com/
+
+ - https://gist.github.com/teppeis/9264080
+
+ - http://blog.jquery.com/2014/12/18/jquery-1-11-2-and-2-1-3-released-safari-fail-safe-edition/
+
+### Apache Commons
+TODO
+
+
 ### Guava
-TODO https://github.com/google/guava/wiki/ReleaseHistory
+TODO
+https://github.com/google/guava/wiki/ReleaseHistory
 
  - https://github.com/google/guava/wiki/Release23
  - https://github.com/google/guava/wiki/Release22
@@ -380,6 +496,7 @@ TODO https://github.com/google/guava/wiki/ReleaseHistory
 ### MyBatis
  - https://github.com/mybatis/mybatis-3/releases
 
+
 ### Underscore.js
  - http://underscorejs.org/#changelog
 
@@ -391,18 +508,77 @@ TODO https://github.com/google/guava/wiki/ReleaseHistory
  - https://github.com/lodash/lodash/wiki/Migrating
 
 
-## OS
 
-### Ubuntu
-TODO http://releases.ubuntu.com/
- - http://releases.ubuntu.com/14.04/
-
-### iOS
-
-### macOS
+----
 
 
-## Misc. Tools
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Editor/IDE
+
+
+### vim
+TODO
+
+### Sublime Text
+TODO
+
+### Atom
+TODO
+
+### VS Code
+TODO
+
+### JetBrains
+
+#### IntelliJ
+
+ - https://www.jetbrains.com/idea/whatsnew/
+
+#### WebStorm
+ - https://www.jetbrains.com/webstorm/whatsnew/
+
+#### RubyMine
+ - https://www.jetbrains.com/ruby/whatsnew/
+
+#### PyCharm
+ - https://www.jetbrains.com/pycharm/whatsnew/
+
+#### PHPStorm
+ - https://www.jetbrains.com/phpstorm/whatsnew/
+
+#### datagrip
+ - https://www.jetbrains.com/datagrip/whatsnew/
+
+
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Misc. Tools(GUI, CLI)
 
 ### Ansible
  - https://github.com/ansible/ansible/blob/devel/CHANGELOG.md
@@ -433,6 +609,7 @@ TODO http://releases.ubuntu.com/
  - https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG.md
 
 ### git
+TODO
 
 
 ### git-lfs
