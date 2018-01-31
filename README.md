@@ -851,14 +851,19 @@ TODO
 
 ### Github Enterprise
 
+ - https://enterprise.github.com/releases/series/2.12
+ - https://enterprise.github.com/releases/series/2.11
+ - https://enterprise.github.com/releases/series/2.10
+ - https://enterprise.github.com/releases/series/2.9
+ - https://enterprise.github.com/releases/series/2.8
+ - https://enterprise.github.com/releases/series/2.7
+ - https://enterprise.github.com/releases/series/2.6
  - https://enterprise.github.com/releases/series/2.5
- - https://enterprise.github.com/releases/2.5.0/notes
-
  - https://enterprise.github.com/releases/series/2.4
- - https://enterprise.github.com/releases/2.4.0/notes
-
  - https://enterprise.github.com/releases/series/2.3
- - https://enterprise.github.com/releases/2.3.0/notes
+ - https://enterprise.github.com/releases/series/2.2
+ - https://enterprise.github.com/releases/series/2.1
+ - https://enterprise.github.com/releases/series/2.0
 
 ### Docker
 TODO
