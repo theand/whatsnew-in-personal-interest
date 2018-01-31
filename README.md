@@ -1,4 +1,90 @@
+
 {{TOC}}
+
+<!-- toc -->
+
+- [whatsnew-personal-collection](#whatsnew-personal-collection)
+  * [Language](#language)
+    + [Ruby](#ruby)
+    + [Python](#python)
+    + [Java (Java SE)](#java-java-se)
+    + [GO](#go)
+    + [JS](#js)
+    + [TypeScript](#typescript)
+    + [PHP](#php)
+  * [Framework](#framework)
+    + [Spring](#spring)
+    + [Spring Boot](#spring-boot)
+    + [Ruby on Rails](#ruby-on-rails)
+    + [IPython](#ipython)
+    + [Laravel](#laravel)
+    + [vue.js](#vuejs)
+    + [Netty](#netty)
+    + [Node.js](#nodejs)
+  * [DB](#db)
+    + [MySQL](#mysql)
+    + [MariaDB](#mariadb)
+    + [PostgreSQL](#postgresql)
+    + [Oracle](#oracle)
+  * [OS](#os)
+    + [Ubuntu](#ubuntu)
+    + [iOS](#ios)
+    + [macOS](#macos)
+  * [Web Server / Web Application Server](#web-server--web-application-server)
+    + [Apache HTTPD](#apache-httpd)
+    + [nginx](#nginx)
+    + [J2EE](#j2ee)
+    + [Apache Tomcat](#apache-tomcat)
+    + [uWSGI](#uwsgi)
+    + [Phusion Passenger](#phusion-passenger)
+    + [rack](#rack)
+    + [Servlet](#servlet)
+  * [Web Browsers](#web-browsers)
+    + [Safari](#safari)
+    + [Chrome](#chrome)
+    + [Firefox](#firefox)
+    + [Opera](#opera)
+    + [IE/Edge](#ieedge)
+  * [Library](#library)
+    + [jQuery](#jquery)
+    + [Apache Commons](#apache-commons)
+    + [Guava](#guava)
+    + [Atomikos XA](#atomikos-xa)
+    + [MyBatis](#mybatis)
+    + [Underscore.js](#underscorejs)
+    + [lodash](#lodash)
+  * [Editor/IDE](#editoride)
+    + [vim](#vim)
+    + [Sublime Text](#sublime-text)
+    + [Atom](#atom)
+    + [VS Code](#vs-code)
+    + [JetBrains](#jetbrains)
+      - [IntelliJ](#intellij)
+      - [WebStorm](#webstorm)
+      - [RubyMine](#rubymine)
+      - [PyCharm](#pycharm)
+      - [PHPStorm](#phpstorm)
+      - [datagrip](#datagrip)
+  * [Misc. Tools(GUI, CLI)](#misc-toolsgui-cli)
+    + [Ansible](#ansible)
+    + [Vagrant](#vagrant)
+    + [gulp](#gulp)
+    + [bower](#bower)
+    + [H5BP](#h5bp)
+    + [Jenkins](#jenkins)
+    + [Tampermonkey](#tampermonkey)
+    + [K8S](#k8s)
+    + [git](#git)
+    + [git-lfs](#git-lfs)
+    + [gerrit](#gerrit)
+    + [Github](#github)
+    + [ack](#ack)
+    + [Jira](#jira)
+    + [Github Enterprise](#github-enterprise)
+    + [Docker](#docker)
+    + [Selenium](#selenium)
+
+<!-- tocstop -->
 
 # whatsnew-personal-collection
 
@@ -315,7 +401,7 @@ http://mysqlrelease.com/
 ## OS
 
 ### Ubuntu
-TODO 
+TODO
 
 http://releases.ubuntu.com/
  - http://releases.ubuntu.com/14.04/
@@ -654,3 +740,17 @@ TODO
 
 ### Selenium
  - https://github.com/SeleniumHQ/selenium/releases
+
+
+
+
+
+
+
+-----
+Generating TOC
+
+`
+npm install -g markdown-toc
+markdown-toc README.md -i
+`
