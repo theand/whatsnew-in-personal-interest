@@ -1,4 +1,3 @@
-
 {{TOC}}
 
 <!-- toc -->
@@ -8,6 +7,7 @@
     + [Ruby](#ruby)
     + [Python](#python)
     + [Java (Java SE)](#java-java-se)
+    + [Kotlin](#kotlin)
     + [GO](#go)
     + [JS](#js)
     + [TypeScript](#typescript)
@@ -30,15 +30,17 @@
     + [Ubuntu](#ubuntu)
     + [iOS](#ios)
     + [macOS](#macos)
-  * [Web Server / Web Application Server](#web-server--web-application-server)
+  * [Web Server / Web Application Server / Web Container / Gateway Interface](#web-server--web-application-server--web-container--gateway-interface)
     + [Apache HTTPD](#apache-httpd)
     + [nginx](#nginx)
-    + [J2EE](#j2ee)
-    + [Apache Tomcat](#apache-tomcat)
-    + [uWSGI](#uwsgi)
-    + [Phusion Passenger](#phusion-passenger)
-    + [rack](#rack)
-    + [Servlet](#servlet)
+    + [Java Servlet](#java-servlet)
+      - [Apache Tomcat](#apache-tomcat)
+      - [AJP](#ajp)
+    + [Python WSGI](#python-wsgi)
+      - [uWSGI](#uwsgi)
+    + [Ruby rack](#ruby-rack)
+      - [Phusion Passenger](#phusion-passenger)
+    + [CGI / FCGI(FastCGI)](#cgi--fcgifastcgi)
   * [Web Browsers](#web-browsers)
     + [Safari](#safari)
     + [Chrome](#chrome)
@@ -73,7 +75,7 @@
     + [H5BP](#h5bp)
     + [Jenkins](#jenkins)
     + [Tampermonkey](#tampermonkey)
-    + [K8S](#k8s)
+    + [kubernetes](#kubernetes)
     + [git](#git)
     + [git-lfs](#git-lfs)
     + [gerrit](#gerrit)
@@ -163,16 +165,53 @@
  JMC
  - http://www.oracle.com/technetwork/java/javase/jmc55-release-notes-2412446.html
 
+### Kotlin
+TODO
+ - https://blog.jetbrains.com/kotlin/category/releases/
+ - https://github.com/JetBrains/kotlin/blob/master/ChangeLog.md
+
 ### GO
  - https://pocketgophers.com/go-release-timeline/
 
 ### JS
 TODO
 
+ - http://2ality.com/2016/01/ecmascript-2016.html
+ - http://2ality.com/2016/02/ecmascript-2017.html
+ - http://2ality.com/2017/02/ecmascript-2018.html
+
+ - https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript
+ - https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_5_support_in_Mozilla
+ - https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_2015_support_in_Mozilla
+ - https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_Next_support_in_Mozilla
+
+ - http://kangax.github.io/compat-table/esnext/
+
+ - https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/Firefox_JavaScript_changelog
 
 ### TypeScript
 TODO
+ - https://github.com/Microsoft/TypeScript/wiki/Roadmap
+ - https://github.com/Microsoft/TypeScript/wiki/What%27s-new-in-TypeScript
+ - https://github.com/Microsoft/TypeScript/wiki/Breaking-Changes
+ - https://github.com/Microsoft/TypeScript/wiki/API-Breaking-Changes
+ - https://github.com/Microsoft/TypeScript/releases
 
+ - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-6.html
+ - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-5.html
+ - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-4.html
+ - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-3.html
+ - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-2.html
+ - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-1.html
+ - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html
+ - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-8.html
+ - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-7.html
+ - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-6.html
+ - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-5.html
+ - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-4.html
+ - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-3.html
+ - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-2.html
+ - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-1.html
 
 ### PHP
 
@@ -293,11 +332,13 @@ TODO
 ### vue.js
 TODO
 
+ - https://github.com/vuejs/vue/releases
+
 
 ### Netty
 TODO
-http://netty.io/wiki/index.html
-http://netty.io/news/index.html
+ - http://netty.io/wiki/index.html
+ - http://netty.io/news/index.html
 
  - http://netty.io/news/2017/08/25/4-0-51-Final-4-1-15-Final.html
 
@@ -306,9 +347,12 @@ http://netty.io/news/index.html
 
 ### Node.js
 TODO
-https://nodejs.org/en/blog/
+ - https://nodejs.org/en/blog/
 
  - https://nodejs.org/en/blog/release/v4.0.0/
+
+ - https://nodejs.org/en/download/releases/
+ - https://github.com/nodejs/node/blob/master/CHANGELOG.md
 
 ----
 
@@ -331,7 +375,7 @@ https://nodejs.org/en/blog/
 ### MySQL
  TODO
 
-http://mysqlrelease.com/
+ - http://mysqlrelease.com/
 
  - https://dev.mysql.com/doc/relnotes/mysql/8.0/en/
  - https://dev.mysql.com/doc/relnotes/mysql/5.7/en/
@@ -403,16 +447,26 @@ http://mysqlrelease.com/
 ### Ubuntu
 TODO
 
-http://releases.ubuntu.com/
+ - http://releases.ubuntu.com/
  - http://releases.ubuntu.com/14.04/
 
 ### iOS
 TODO
 
+ - https://developer.apple.com/library/content/releasenotes/General/RN-iOSSDK-11/index.html
+ - https://developer.apple.com/library/content/releasenotes/General/RN-iOSSDK-10.0/index.html
+ - https://developer.apple.com/library/content/releasenotes/General/RN-iOSSDK-9.0/index.html
+ - https://developer.apple.com/library/content/releasenotes/General/RN-iOSSDK-8.0/index.html
+ - https://developer.apple.com/library/content/releasenotes/General/RN-iOSSDK-7.0/index.html
+
 
 ### macOS
 TODO
 
+ - https://developer.apple.com/library/content/releasenotes/General/RN-macOSSDK-10.13/index.html
+
+ - https://developer.apple.com/library/content/releasenotes/MacOSX/WhatsNewInOSX/Articles/macOS_10_13_0.html
+ - https://developer.apple.com/library/content/releasenotes/MacOSX/WhatsNewInOSX/Articles/OSXv10.html
 
 ----
 
@@ -430,19 +484,50 @@ TODO
 
 
 
-## Web Server / Web Application Server
+## Web Server / Web Application Server / Web Container / Gateway Interface
 
 ### Apache HTTPD
 TODO
 
+ - https://httpd.apache.org/docs/2.4/en/new_features_2_4.html
+ - https://httpd.apache.org/docs/2.4/en/new_features_2_2.html
+ - https://httpd.apache.org/docs/2.4/en/new_features_2_0.html
+
+ - https://httpd.apache.org/docs/2.4/en/upgrading.html
+
+
 ### nginx
 TODO
 
-### J2EE
- - https://docs.oracle.com/javaee/7/tutorial/index.html
+ - http://nginx.org/
 
+ - http://nginx.org/en/CHANGES
 
-### Apache Tomcat
+ - http://nginx.org/en/CHANGES-1.12
+ - http://nginx.org/en/CHANGES-1.10
+ - http://nginx.org/en/CHANGES-1.8
+ - http://nginx.org/en/CHANGES-1.6
+ - http://nginx.org/en/CHANGES-1.4
+ - http://nginx.org/en/CHANGES-1.2
+ - http://nginx.org/en/CHANGES-1.0
+ - http://nginx.org/en/CHANGES-0.8
+ - http://nginx.org/en/CHANGES-0.7
+ - http://nginx.org/en/CHANGES-0.6
+ - http://nginx.org/en/CHANGES-0.5
+
+### Java Servlet
+TODO
+
+- https://docs.oracle.com/javaee/7/tutorial/index.html
+
+ - https://en.wikipedia.org/wiki/Java_servlet
+ - https://www.jcp.org/en/jsr/detail?id=369
+ - https://www.jcp.org/en/jsr/detail?id=340
+ - https://www.jcp.org/en/jsr/detail?id=315
+ - https://www.jcp.org/en/jsr/detail?id=154
+ - https://www.jcp.org/en/jsr/detail?id=53
+
+#### Apache Tomcat
  - http://tomcat.apache.org/tomcat-9.0-doc/changelog.html
  - http://tomcat.apache.org/tomcat-8.5-doc/changelog.html
  - http://tomcat.apache.org/tomcat-8.0-doc/changelog.html
@@ -455,23 +540,49 @@ TODO
  - https://tomcat.apache.org/tomcat-8.0-doc/RELEASE-NOTES.txt
  - https://tomcat.apache.org/tomcat-7.0-doc/RELEASE-NOTES.txt
 
-### uWSGI
+#### AJP
+TODO
+
+ - https://en.wikipedia.org/wiki/Apache_JServ_Protocol
+
+
+### Python WSGI
+TODO
+
+ - https://www.python.org/dev/peps/pep-0333/
+ - http://wsgi.readthedocs.io/en/latest/index.html
+
+#### uWSGI
 
  - http://uwsgi-docs.readthedocs.io/en/latest/index.html
  - http://uwsgi-docs.readthedocs.io/en/latest/Changelog-1.9.html
  - http://uwsgi-docs.readthedocs.io/en/latest/Changelog-2.0.html
 
-### Phusion Passenger
+
+### Ruby rack
 TODO
 
+ - https://rack.github.io/
 
-### rack
+#### Phusion Passenger
 TODO
 
-### Servlet
+### CGI / FCGI(FastCGI)
 TODO
 
- ----
+ - https://en.wikipedia.org/wiki/Common_Gateway_Interface
+ - https://tools.ietf.org/html/rfc3875
+ - https://www.w3.org/CGI/
+ - https://web.archive.org/web/20130825202222/http://ken.coar.org/cgi/
+
+
+ - https://en.wikipedia.org/wiki/FastCGI
+ - https://fastcgi-archives.github.io/
+ - https://fastcgi-archives.github.io/FastCGI_Specification.html
+
+
+
+----
 
 
 
@@ -506,18 +617,31 @@ TODO
 
 
 ### Chrome
-TODO https://chromereleases.googleblog.com/
-TODO https://www.chromium.org/developers/calendar
+TODO
+ - https://chromereleases.googleblog.com/
+ - https://www.chromium.org/developers/calendar
 
 
 ### Firefox
-
+TODO
+ - https://www.mozilla.org/en-US/firefox/releases/
+ - https://www.mozilla.org/en-US/firefox/notes/
 
 ### Opera
+TODO
+ - http://www.opera.com/docs/history/
+ - https://blogs.opera.com/desktop/
 
 
 ### IE/Edge
+TODO
 
+ - https://support.microsoft.com/en-us/help/969393/information-about-internet-explorer-versions
+
+ - https://docs.microsoft.com/en-us/internet-explorer/ie11-deploy-guide/change-history-for-internet-explorer-11
+
+ - https://docs.microsoft.com/en-us/microsoft-edge/deploy/change-history-for-microsoft-edge
+ - https://developer.microsoft.com/en-us/microsoft-edge/platform/changelog/
 
 
  ----
@@ -541,7 +665,7 @@ TODO https://www.chromium.org/developers/calendar
 
 ### jQuery
 TODO
-http://blog.jquery.com/
+ - http://blog.jquery.com/
 
  - https://gist.github.com/teppeis/9264080
 
@@ -553,7 +677,7 @@ TODO
 
 ### Guava
 TODO
-https://github.com/google/guava/wiki/ReleaseHistory
+ - https://github.com/google/guava/wiki/ReleaseHistory
 
  - https://github.com/google/guava/wiki/Release23
  - https://github.com/google/guava/wiki/Release22
@@ -616,15 +740,20 @@ https://github.com/google/guava/wiki/ReleaseHistory
 
 ### vim
 TODO
+ - https://github.com/vim/vim/blob/master/runtime/doc/version8.txt
 
 ### Sublime Text
 TODO
+ - http://www.sublimetext.com/updates/3/dev/release_notes.html
+ - http://www.sublimetext.com/updates/2/dev/release_notes.html
 
 ### Atom
 TODO
+ - https://atom.io/releases
 
 ### VS Code
 TODO
+ - https://code.visualstudio.com/updates/
 
 ### JetBrains
 
@@ -691,12 +820,12 @@ TODO
 
  - https://tampermonkey.net/changelog.php
 
-### K8S
+### kubernetes
  - https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG.md
 
 ### git
 TODO
-
+ - https://github.com/git/git/tree/master/Documentation/RelNotes
 
 ### git-lfs
  - https://github.com/blog/2328-git-lfs-2-0-0-released
@@ -706,13 +835,16 @@ TODO
 
 
 ### Github
-TODO https://github.com/blog/category/ship
+TODO
+ - https://github.com/blog/category/ship
 
 ### ack
-TODO http://perlbuzz.com/category/tools/
+TODO
+ - http://perlbuzz.com/category/tools/
 
 ### Jira
-TODO https://confluence.atlassian.com/jira064/production-releases-720413057.html
+TODO
+ - https://confluence.atlassian.com/jira064/production-releases-720413057.html
 
  - https://confluence.atlassian.com/jira064/jira-6-3-release-notes-720413518.html
  - https://confluence.atlassian.com/jira064/jira-6-4-release-notes-720414168.html
