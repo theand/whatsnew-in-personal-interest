@@ -31,6 +31,7 @@
     + [iOS](#ios)
     + [macOS](#macos)
   * [Web Server / Web Application Server / Web Container / Gateway Interface](#web-server--web-application-server--web-container--gateway-interface)
+    + [HTTP RFC](#http-rfc)
     + [Apache HTTPD](#apache-httpd)
     + [nginx](#nginx)
     + [Java Servlet](#java-servlet)
@@ -48,18 +49,25 @@
     + [Opera](#opera)
     + [IE/Edge](#ieedge)
   * [Library](#library)
+    + [JUnit](#junit)
     + [jQuery](#jquery)
     + [Apache Commons](#apache-commons)
+    + [Apache Taglibs](#apache-taglibs)
+    + [Apache Velocity](#apache-velocity)
     + [Guava](#guava)
     + [Atomikos Transactions](#atomikos-transactions)
     + [MyBatis](#mybatis)
     + [Underscore.js](#underscorejs)
     + [lodash](#lodash)
+    + [Redisson](#redisson)
+    + [Codeception](#codeception)
+    + [Guzzle](#guzzle)
   * [Editor/IDE](#editoride)
     + [vim](#vim)
     + [Sublime Text](#sublime-text)
     + [Atom](#atom)
     + [VS Code](#vs-code)
+    + [Eclipse](#eclipse)
     + [JetBrains](#jetbrains)
       - [IntelliJ](#intellij)
       - [WebStorm](#webstorm)
@@ -67,7 +75,7 @@
       - [PyCharm](#pycharm)
       - [PHPStorm](#phpstorm)
       - [datagrip](#datagrip)
-  * [Misc. Tools(GUI, CLI)](#misc-toolsgui-cli)
+  * [Misc. Tools(GUI, CLI, WebApp)](#misc-toolsgui-cli-webapp)
     + [Ansible](#ansible)
     + [Vagrant](#vagrant)
     + [gulp](#gulp)
@@ -85,6 +93,17 @@
     + [Github Enterprise](#github-enterprise)
     + [Docker](#docker)
     + [Selenium](#selenium)
+    + [MoinMoin Wiki](#moinmoin-wiki)
+    + [Beyond Compare](#beyond-compare)
+    + [CocoaPods](#cocoapods)
+    + [npm](#npm)
+    + [yarn](#yarn)
+    + [composer](#composer)
+    + [bundler](#bundler)
+    + [Maven](#maven)
+    + [pip](#pip)
+    + [JMC (Java Mission Control)](#jmc-java-mission-control)
+    + [Tadpole DB Hub](#tadpole-db-hub)
 
 <!-- tocstop -->
 
@@ -459,6 +478,7 @@ TODO
  - https://developer.apple.com/library/content/releasenotes/General/RN-iOSSDK-8.0/index.html
  - https://developer.apple.com/library/content/releasenotes/General/RN-iOSSDK-7.0/index.html
 
+ - https://code.tutsplus.com/articles/a-developer-looks-at-ios-6-and-the-iphone-5--mobile-12572
 
 ### macOS
 TODO
@@ -485,6 +505,9 @@ TODO
 
 
 ## Web Server / Web Application Server / Web Container / Gateway Interface
+
+### HTTP RFC
+ - https://gist.github.com/guersam/2a3d61d6429f62a43ee6
 
 ### Apache HTTPD
 TODO
@@ -663,6 +686,13 @@ TODO
 ## Library
 
 
+### JUnit
+ - http://junit.org/junit5/docs/5.0.0/user-guide/#release-notes
+ - http://junit.org/junit5/docs/5.0.0/user-guide/#migrating-from-junit4
+
+ - https://github.com/junit-team/junit4/tree/master/doc
+
+
 ### jQuery
 TODO
  - http://blog.jquery.com/
@@ -674,6 +704,12 @@ TODO
 ### Apache Commons
 TODO
 
+
+### Apache Taglibs
+ - http://tomcat.apache.org/taglibs/CHANGES.txt
+
+### Apache Velocity
+ - http://velocity.apache.org/engine/2.0/changes.html
 
 ### Guava
 TODO
@@ -718,6 +754,14 @@ TODO
  - https://github.com/lodash/lodash/wiki/Migrating
 
 
+### Redisson
+ - https://github.com/redisson/redisson/blob/master/CHANGELOG.md
+
+### Codeception
+ - http://codeception.com/changelog
+
+### Guzzle
+ - https://github.com/guzzle/guzzle/blob/master/CHANGELOG.md
 
 ----
 
@@ -754,6 +798,15 @@ TODO
 ### VS Code
 TODO
  - https://code.visualstudio.com/updates/
+
+### Eclipse
+ - https://www.slideshare.net/mikaelbarbero/whats-new-in-eclipse-oxygen-devoxx-france-2017
+
+ - http://www.eclipse.org/oxygen/noteworthy/
+ - http://www.eclipse.org/neon/noteworthy/
+ - http://www.eclipse.org/mars/noteworthy/
+ - http://www.eclipse.org/luna/
+ - http://www.eclipse.org/kepler/
 
 ### JetBrains
 
@@ -793,7 +846,7 @@ TODO
 
 
 
-## Misc. Tools(GUI, CLI)
+## Misc. Tools(GUI, CLI, WebApp)
 
 ### Ansible
  - https://github.com/ansible/ansible/blob/devel/CHANGELOG.md
@@ -880,9 +933,59 @@ TODO
 
 
 
+### MoinMoin Wiki
 
+ - https://moinmo.in/MoinMoinRoadmap
+ - https://moinmo.in/MoinMoinTodo
+ - https://moinmo.in/MoinMoinTodo/PlannedFeatures
+ - https://moinmo.in/MoinMoinIdeas
 
+ - https://moinmo.in/MoinMoinRelease1.9
+ - https://moinmo.in/MoinMoinRelease1.8
+ - https://moinmo.in/MoinMoinRelease1.7
+ - https://moinmo.in/MoinMoinRelease1.6
 
+ - https://moinmo.in/MoinMoinRelease1.5
+ - https://moinmo.in/MoinMoinRelease1.5/CHANGES
+
+ - https://moinmo.in/MoinMoinRelease1.3
+ - https://moinmo.in/MoinMoinRelease1.3/README.migration
+ - https://moinmo.in/MoinMoinRelease1.3/CHANGES
+
+ - https://moinmo.in/MoinMoinTodo/Release%201.2
+ - https://moinmo.in/MoinMoinTodo/Release%201.1
+
+### Beyond Compare
+ - http://www.scootersoftware.com/download.php?zz=v4changelog
+
+### CocoaPods
+ - https://github.com/CocoaPods/CocoaPods/blob/master/CHANGELOG.md
+
+### npm
+ - https://github.com/npm/npm/releases
+ - https://github.com/npm/npm/blob/latest/CHANGELOG.md
+
+### yarn
+ - https://github.com/yarnpkg/yarn/releases
+
+### composer
+ - https://github.com/composer/composer/blob/master/CHANGELOG.md
+ - https://github.com/composer/composer/blob/master/CHANGELOG.md
+
+### bundler
+ - https://github.com/bundler/bundler/blob/master/CHANGELOG.md
+
+### Maven
+ - https://maven.apache.org/release-notes-all.html
+
+### pip
+ - https://pip.pypa.io/en/stable/news/
+
+### JMC (Java Mission Control)
+ - http://www.oracle.com/technetwork/java/javase/jmc55-release-notes-2412446.html
+
+### Tadpole DB Hub
+ - https://tadpoledbhub.atlassian.net/wiki/spaces/TADPOLE/pages/5242893/Release+Note
 
 -----
 Generating TOC
@@ -891,3 +994,7 @@ Generating TOC
 npm install -g markdown-toc
 markdown-toc README.md -i
 `
+
+
+reference.
+ - https://allmychanges.com/p/
