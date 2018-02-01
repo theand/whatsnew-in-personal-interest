@@ -13,7 +13,8 @@
     + [TypeScript](#typescript)
     + [PHP](#php)
   * [Framework](#framework)
-    + [Spring](#spring)
+    + [Spring Framework](#spring-framework)
+    + [Spring Security](#spring-security)
     + [Spring Boot](#spring-boot)
     + [Ruby on Rails](#ruby-on-rails)
     + [IPython](#ipython)
@@ -51,6 +52,7 @@
   * [Library](#library)
     + [JUnit](#junit)
     + [jQuery](#jquery)
+    + [RxJS](#rxjs)
     + [Apache Commons](#apache-commons)
     + [Apache Taglibs](#apache-taglibs)
     + [Apache Velocity](#apache-velocity)
@@ -59,6 +61,7 @@
     + [MyBatis](#mybatis)
     + [Underscore.js](#underscorejs)
     + [lodash](#lodash)
+    + [Log4j 2](#log4j-2)
     + [Redisson](#redisson)
     + [Codeception](#codeception)
     + [Guzzle](#guzzle)
@@ -81,6 +84,7 @@
     + [gulp](#gulp)
     + [bower](#bower)
     + [H5BP](#h5bp)
+    + [Bootstrap](#bootstrap)
     + [Jenkins](#jenkins)
     + [Tampermonkey](#tampermonkey)
     + [kubernetes](#kubernetes)
@@ -241,10 +245,13 @@ TODO
  - http://php.net/manual/en/migration72.php
  - http://php.net/manual/en/migration71.php
  - http://php.net/manual/en/migration70.php
+ - http://php.net/manual/en/migration70.new-features.php
  - http://php.net/manual/en/migration56.php
  - http://php.net/manual/en/migration55.php
  - http://php.net/manual/en/migration54.php
  - http://php.net/manual/en/migration53.php
+
+ - https://wiki.kldp.org/wiki.php/PHP52ToPHP53
 
 ----
 
@@ -264,7 +271,7 @@ TODO
 
 ## Framework
 
-### Spring
+### Spring Framework
  - https://jira.spring.io/browse/SPR/?selectedTab=com.atlassian.jira.jira-projects-plugin:versions-panel
  - https://jira.spring.io/browse/SPR/fixforversion/15453/?selectedTab=com.atlassian.jira.plugins.jira-development-integration-plugin%3Arelease-report-tabpanel
 
@@ -284,6 +291,13 @@ TODO
  - https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/htmlsingle/#migration-3.2
  - https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/htmlsingle/#new-in-3.1
  - https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/htmlsingle/#migration-3.1
+
+ - https://docs.spring.io/spring-security/site/migrate/current/3-to-4/html5/migrate-3-to-4-jc.html
+ - https://docs.spring.io/spring-security/site/migrate/current/3-to-4/html5/migrate-3-to-4-xml.html#csrf
+ - https://www.slideshare.net/SpringCentral/upgrade-tospring4
+
+### Spring Security
+ - https://docs.spring.io/spring-security/site/migrate/current/3-to-4/html5/migrate-3-to-4-xml.html
 
 ### Spring Boot
 
@@ -541,7 +555,7 @@ TODO
 ### Java Servlet
 TODO
 
-- https://docs.oracle.com/javaee/7/tutorial/index.html
+ - https://docs.oracle.com/javaee/7/tutorial/index.html
 
  - https://en.wikipedia.org/wiki/Java_servlet
  - https://www.jcp.org/en/jsr/detail?id=369
@@ -551,6 +565,8 @@ TODO
  - https://www.jcp.org/en/jsr/detail?id=53
 
 #### Apache Tomcat
+ - http://tomcat.apache.org/migration.html
+
  - http://tomcat.apache.org/tomcat-9.0-doc/changelog.html
  - http://tomcat.apache.org/tomcat-8.5-doc/changelog.html
  - http://tomcat.apache.org/tomcat-8.0-doc/changelog.html
@@ -701,6 +717,10 @@ TODO
 
  - http://blog.jquery.com/2014/12/18/jquery-1-11-2-and-2-1-3-released-safari-fail-safe-edition/
 
+### RxJS
+ - https://github.com/ReactiveX/rxjs/blob/master/CHANGELOG.md
+ - https://github.com/ReactiveX/rxjs/blob/master/MIGRATION.md
+
 ### Apache Commons
 TODO
 
@@ -710,6 +730,9 @@ TODO
 
 ### Apache Velocity
  - http://velocity.apache.org/engine/2.0/changes.html
+ - http://velocity.apache.org/engine/2.0/upgrading.html
+ - http://velocity.apache.org/tools/devel/upgrading.html
+
 
 ### Guava
 TODO
@@ -753,6 +776,9 @@ TODO
  - https://github.com/lodash/lodash/wiki/Roadmap
  - https://github.com/lodash/lodash/wiki/Migrating
 
+### Log4j 2
+ - https://logging.apache.org/log4j/2.x/manual/migration.html
+ - https://logging.apache.org/log4j/2.x/changes-report.html
 
 ### Redisson
  - https://github.com/redisson/redisson/blob/master/CHANGELOG.md
@@ -865,6 +891,9 @@ TODO
 
  - http://htmlcssjavascript.com/html/html5-boilerplate-6-0-released/
  - https://github.com/h5bp/html5-boilerplate/releases
+
+### Bootstrap
+ - https://getbootstrap.com/docs/4.0/migration/
 
 ### Jenkins
  - https://jenkins.io/changelog/
