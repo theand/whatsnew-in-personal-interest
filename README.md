@@ -127,16 +127,16 @@
 
  - https://www.ruby-lang.org/en/news/2016/09/08/ruby-2-4-0-preview2-released/
 
- - https://github.com/ruby/ruby/blob/v1_9_1_0/NEWS
- - https://github.com/ruby/ruby/blob/v1_9_2_0/NEWS
- - https://github.com/ruby/ruby/blob/v1_9_3_0/NEWS
- - https://github.com/ruby/ruby/blob/v2_0_0_0/NEWS
- - https://github.com/ruby/ruby/blob/v2_1_0/NEWS
- - https://github.com/ruby/ruby/blob/v2_2_0/NEWS
- - https://github.com/ruby/ruby/blob/v2_3_0/NEWS
- - https://github.com/ruby/ruby/blob/v2_4_0/NEWS
  - https://github.com/ruby/ruby/blob/v2_5_0/NEWS
+ - https://github.com/ruby/ruby/blob/v2_4_0/NEWS
+ - https://github.com/ruby/ruby/blob/v2_3_0/NEWS
+ - https://github.com/ruby/ruby/blob/v2_2_0/NEWS
+ - https://github.com/ruby/ruby/blob/v2_1_0/NEWS
+ - https://github.com/ruby/ruby/blob/v2_0_0_0/NEWS
 
+ - https://github.com/ruby/ruby/blob/v1_9_3_0/NEWS
+ - https://github.com/ruby/ruby/blob/v1_9_2_0/NEWS
+ - https://github.com/ruby/ruby/blob/v1_9_1_0/NEWS
 
 
 ### Python
@@ -167,10 +167,9 @@
 
 ### Java (Java SE)
  TODO
- - https://docs.oracle.com/javase/7/docs/index.html
- - https://docs.oracle.com/javase/8/
  - https://docs.oracle.com/javase/9/
-
+ - https://docs.oracle.com/javase/8/
+ - https://docs.oracle.com/javase/7/docs/index.html
 
  - https://docs.oracle.com/javase/9/whatsnew/toc.htm
  - https://docs.oracle.com/javase/9/migrate/toc.htm
@@ -185,8 +184,6 @@
  JDK5
  - http://www.oracle.com/technetwork/java/javase/relnotes-139183.html
 
- JMC
- - http://www.oracle.com/technetwork/java/javase/jmc55-release-notes-2412446.html
 
 ### Kotlin
 TODO
@@ -199,9 +196,9 @@ TODO
 ### JS
 TODO
 
- - http://2ality.com/2016/01/ecmascript-2016.html
- - http://2ality.com/2016/02/ecmascript-2017.html
  - http://2ality.com/2017/02/ecmascript-2018.html
+ - http://2ality.com/2016/02/ecmascript-2017.html
+ - http://2ality.com/2016/01/ecmascript-2016.html
 
  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript
  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_5_support_in_Mozilla
@@ -227,6 +224,7 @@ TODO
  - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-2.html
  - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-1.html
  - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html
+
  - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-8.html
  - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-7.html
  - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-6.html
@@ -246,6 +244,7 @@ TODO
  - http://php.net/manual/en/migration71.php
  - http://php.net/manual/en/migration70.php
  - http://php.net/manual/en/migration70.new-features.php
+
  - http://php.net/manual/en/migration56.php
  - http://php.net/manual/en/migration55.php
  - http://php.net/manual/en/migration54.php
@@ -293,7 +292,7 @@ TODO
  - https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/htmlsingle/#migration-3.1
 
  - https://docs.spring.io/spring-security/site/migrate/current/3-to-4/html5/migrate-3-to-4-jc.html
- - https://docs.spring.io/spring-security/site/migrate/current/3-to-4/html5/migrate-3-to-4-xml.html#csrf
+ - https://docs.spring.io/spring-security/site/migrate/current/3-to-4/html5/migrate-3-to-4-xml.html
  - https://www.slideshare.net/SpringCentral/upgrade-tospring4
 
 ### Spring Security
@@ -331,9 +330,11 @@ TODO
  - http://guides.rubyonrails.org/4_2_release_notes.html
  - http://guides.rubyonrails.org/4_1_release_notes.html
  - http://guides.rubyonrails.org/4_0_release_notes.html
+
  - http://edgeguides.rubyonrails.org/3_2_release_notes.html
  - http://edgeguides.rubyonrails.org/3_1_release_notes.html
  - http://edgeguides.rubyonrails.org/3_0_release_notes.html
+
  - http://guides.rubyonrails.org/2_3_release_notes.html
  - http://guides.rubyonrails.org/2_2_release_notes.html
 
@@ -345,6 +346,7 @@ TODO
  - http://ipython.readthedocs.io/en/stable/whatsnew/version3.html
  - http://ipython.readthedocs.io/en/stable/whatsnew/version2.0.html
  - http://ipython.readthedocs.io/en/stable/whatsnew/version1.0.html
+
  - http://ipython.readthedocs.io/en/stable/whatsnew/version0.13.html
  - http://ipython.readthedocs.io/en/stable/whatsnew/version0.12.html
  - http://ipython.readthedocs.io/en/stable/whatsnew/version0.11.html
@@ -382,7 +384,6 @@ TODO
 TODO
  - https://nodejs.org/en/blog/
 
- - https://nodejs.org/en/blog/release/v4.0.0/
 
  - https://nodejs.org/en/download/releases/
  - https://github.com/nodejs/node/blob/master/CHANGELOG.md
@@ -411,12 +412,14 @@ TODO
  - http://mysqlrelease.com/
 
  - https://dev.mysql.com/doc/relnotes/mysql/8.0/en/
+
  - https://dev.mysql.com/doc/relnotes/mysql/5.7/en/
  - https://dev.mysql.com/doc/relnotes/mysql/5.6/en/
  - https://dev.mysql.com/doc/relnotes/mysql/5.5/en/
 
 
  - https://dev.mysql.com/doc/refman/8.0/en/upgrading-from-previous-series.html
+
  - https://dev.mysql.com/doc/refman/5.7/en/upgrading-from-previous-series.html
  - https://dev.mysql.com/doc/refman/5.6/en/upgrading-from-previous-series.html
  - https://dev.mysql.com/doc/refman/5.5/en/upgrading-from-previous-series.html
@@ -443,6 +446,7 @@ TODO
  - https://www.postgresql.org/docs/9.2/static/release-9-2.html
  - https://www.postgresql.org/docs/9.1/static/release-9-1.html
  - https://www.postgresql.org/docs/9.0/static/release-9-0.html
+
  - https://www.postgresql.org/docs/8.4/static/release-8-4.html
  - https://www.postgresql.org/docs/8.3/static/release-8-3.html
  - https://www.postgresql.org/docs/8.2/static/release-8-2.html
@@ -547,6 +551,7 @@ TODO
  - http://nginx.org/en/CHANGES-1.4
  - http://nginx.org/en/CHANGES-1.2
  - http://nginx.org/en/CHANGES-1.0
+
  - http://nginx.org/en/CHANGES-0.8
  - http://nginx.org/en/CHANGES-0.7
  - http://nginx.org/en/CHANGES-0.6
