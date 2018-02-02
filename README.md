@@ -46,6 +46,7 @@
   * [Web Browsers](#web-browsers)
     + [Safari](#safari)
     + [Chrome](#chrome)
+      - [Chrome DevTools](#chrome-devtools)
     + [Firefox](#firefox)
     + [Opera](#opera)
     + [IE/Edge](#ieedge)
@@ -108,6 +109,7 @@
     + [pip](#pip)
     + [JMC (Java Mission Control)](#jmc-java-mission-control)
     + [Tadpole DB Hub](#tadpole-db-hub)
+    + [Alfred](#alfred)
 
 <!-- tocstop -->
 
@@ -665,6 +667,105 @@ TODO
  - https://chromereleases.googleblog.com/
  - https://www.chromium.org/developers/calendar
 
+ - https://developers.google.com/web/updates/
+ - https://developers.google.com/web/updates/2018/
+ - https://developers.google.com/web/updates/tags/new-in-chrome
+ - https://developers.google.com/web/updates/tags/deprecations
+
+ - https://developers.google.com/web/updates/2018/01/nic64
+ - https://developers.google.com/web/updates/2017/12/chrome-64-deprecations
+ - https://developers.google.com/web/updates/2017/12/chrome-63-64-media-updates
+
+ - https://developers.google.com/web/updates/2017/12/nic63
+ - https://developers.google.com/web/updates/2017/10/chrome-63-deprecations
+
+ - https://developers.google.com/web/updates/2017/10/nic62
+ - https://developers.google.com/web/updates/2017/09/chrome-62-deprecations
+
+ - https://developers.google.com/web/updates/2017/09/nic61
+ - https://developers.google.com/web/updates/2017/08/chrome-61-deprecations
+
+ - https://developers.google.com/web/updates/2017/07/nic60
+ - https://developers.google.com/web/updates/2017/06/chrome-60-deprecations
+
+ - https://developers.google.com/web/updates/2017/05/nic59
+ - https://developers.google.com/web/updates/2017/04/chrome-59-deprecations
+
+ - https://developers.google.com/web/updates/2017/04/nic58
+ - https://developers.google.com/web/updates/2017/03/chrome-58-deprecations
+
+ - https://developers.google.com/web/updates/2017/03/nic57
+ - https://developers.google.com/web/updates/2017/02/chrome-57-deprecations
+
+ - https://developers.google.com/web/updates/2017/01/nic56
+ - https://developers.google.com/web/updates/2016/12/chrome-56-deprecations
+
+ - https://developers.google.com/web/updates/2016/11/nic55
+ - https://developers.google.com/web/updates/2016/10/chrome-55-deprecations
+
+ - https://developers.google.com/web/updates/2016/10/nic54
+ - https://developers.google.com/web/updates/2016/09/chrome-54-deprecations
+
+ - https://developers.google.com/web/updates/2016/08/chrome-53-deprecations
+ - https://developers.google.com/web/updates/2016/06/chrome-52-deprecations
+ - https://developers.google.com/web/updates/2016/04/chrome-51-deprecations
+ - https://developers.google.com/web/updates/2016/03/chrome-50-deprecations
+ - https://developers.google.com/web/updates/2016/02/chrome-49-deprecations
+
+
+chromium
+v8
+
+#### Chrome DevTools
+
+ - https://developers.google.com/web/updates/
+ - https://developers.google.com/web/updates/2018/
+ - https://developers.google.com/web/updates/tags/devtools
+ - https://developers.google.com/web/updates/tags/devtools-whatsnew
+
+65
+ - https://developers.google.com/web/updates/2018/01/devtools
+
+64
+ - https://developers.google.com/web/updates/2017/11/devtools-release-notes
+
+63
+ - https://developers.google.com/web/updates/2017/10/devtools-release-notes
+
+62
+ - https://developers.google.com/web/updates/2017/08/devtools-release-notes
+
+61
+ - https://developers.google.com/web/updates/2017/07/devtools-release-notes
+
+60
+ - https://developers.google.com/web/updates/2017/05/devtools-release-notes
+
+59
+ - https://developers.google.com/web/updates/2017/04/devtools-release-notes
+
+58
+ - https://developers.google.com/web/updates/2017/03/devtools-release-notes
+
+ - https://developers.google.com/web/updates/2016/10/devtools-digest
+ - https://developers.google.com/web/updates/2016/09/devtools-digest
+ - https://developers.google.com/web/updates/2016/08/devtools-digest
+ - https://developers.google.com/web/updates/2016/06/devtools-digest
+ - https://developers.google.com/web/updates/2016/04/devtools-digest-command-menu
+ - https://developers.google.com/web/updates/2016/02/devtools-digest-devtools-go-dark
+ - https://developers.google.com/web/updates/2015/12/security-panel
+ - https://developers.google.com/web/updates/2015/11/devtools-digest-cds-edition
+ - https://developers.google.com/web/updates/2015/10/devtools-digest-efficient-element-edits
+ - https://developers.google.com/web/updates/2015/10/devtools-digest-reordering-tabs
+ - https://developers.google.com/web/updates/2015/08/devtools-digest-aggregated-timeline-details
+ - https://developers.google.com/web/updates/2015/07/devtools-digest-film-strip-and-a-new-home-for-throttling
+
+
+
+
+
+
+
 
 ### Firefox
 TODO
@@ -1020,6 +1121,8 @@ TODO
 
 ### Tadpole DB Hub
  - https://tadpoledbhub.atlassian.net/wiki/spaces/TADPOLE/pages/5242893/Release+Note
+
+### Alfred
 
 -----
 Generating TOC
