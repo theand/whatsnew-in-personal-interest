@@ -850,6 +850,7 @@ entry point
  - https://webkit.org/blog/6017/introducing-safari-technology-preview/
 
 by version
+ - https://webkit.org/blog/8165/release-notes-for-safari-technology-preview-52/
  - https://webkit.org/blog/8136/release-notes-for-safari-technology-preview-51/
  - https://webkit.org/blog/8121/release-notes-for-safari-technology-preview-50/
  - https://webkit.org/blog/8088/release-notes-for-safari-technology-preview-49/
