@@ -1032,6 +1032,54 @@ before
  - https://developers.google.com/web/updates/2015/08/devtools-digest-aggregated-timeline-details
  - https://developers.google.com/web/updates/2015/07/devtools-digest-film-strip-and-a-new-home-for-throttling
 
+#### Chromium (Chrome Beta)
+entry point
+https://blog.chromium.org/
+
+by version
+ - https://blog.chromium.org/2018/03/chrome-66-beta-css-typed-object-model.html
+ - https://blog.chromium.org/2018/02/chrome-65-beta-css-paint-api-and.html
+ - https://blog.chromium.org/2017/12/chrome-64-beta-stronger-pop-up-blocker_14.html
+ - https://blog.chromium.org/2017/10/chrome-63-beta-dynamic-module-imports_27.html
+ - https://blog.chromium.org/2017/09/chrome-62-beta-network-quality.html
+ - https://blog.chromium.org/2017/08/chrome-61-beta-javascript-modules.html
+ - https://blog.chromium.org/2017/06/chrome-60-beta-paint-timing-api-css.html
+ - https://blog.chromium.org/2017/05/chrome-59-beta-headless-chromium-native.html
+ - https://blog.chromium.org/2017/03/chrome-58-beta-indexeddb-20_21.html
+ - https://blog.chromium.org/2017/02/chrome-57-beta-css-grid-layout-improved.html
+ - https://blog.chromium.org/2016/12/chrome-56-beta-not-secure-warning-web.html
+ - https://blog.chromium.org/2016/10/chrome-55-beta-input-handling.html
+ - https://blog.chromium.org/2016/09/chrome-54-beta-custom-elements-v1.html
+ - https://blog.chromium.org/2016/08/chrome-53-beta-shadow-dom.html
+ - https://blog.chromium.org/2016/06/chrome-52-beta-css-containment-simpler.html
+ - https://blog.chromium.org/2016/04/chrome-51-beta-credential-management.html
+ - https://blog.chromium.org/2016/03/chrome-50-beta-push-notification.html
+ - https://blog.chromium.org/2016/02/chrome-49-beta-css-custom-properties.html
+ - https://blog.chromium.org/2015/12/chrome-48-beta-present-to-cast-devices_91.html
+ - https://blog.chromium.org/2015/10/chrome-47-beta-idle-time-work-splash.html
+ - https://blog.chromium.org/2015/09/chrome-46-beta-flexible-animations-and.html
+ - https://blog.chromium.org/2015/07/chrome-45-beta-new-es2015-features.html
+ - https://blog.chromium.org/2015/06/chrome-44-beta-improvements-to.html
+ - https://blog.chromium.org/2015/04/chrome-43-beta-web-midi-and-upgrading.html
+ - https://blog.chromium.org/2015/03/chrome-42-beta-push-notifications_12.html
+ - https://blog.chromium.org/2015/01/chrome-41-beta-new-es6-features-and.html
+ - https://blog.chromium.org/2014/12/chrome-40-beta-powerful-offline-and.html
+ - https://blog.chromium.org/2014/10/chrome-39-beta-js-generators-animation.html
+ - https://blog.chromium.org/2014/08/chrome-38-beta-new-primitives-for-next.html
+ - https://blog.chromium.org/2014/07/chrome-37-beta-directwrite-on-windows.html
+ - https://blog.chromium.org/2014/05/chrome-36-beta-elementanimate-html.html
+ - https://blog.chromium.org/2014/04/chrome-35-beta-more-developer-control.html
+ - https://blog.chromium.org/2014/02/chrome-34-responsive-images-and_9316.html
+ - https://blog.chromium.org/2014/01/chrome-33-beta-custom-elements-web.html
+ - https://blog.chromium.org/2013/11/chrome-32-beta-animated-webp-images-and.html
+ - https://blog.chromium.org/2013/10/chrome-31-beta-android-application.html
+ - https://blog.chromium.org/2013/08/chrome-30-beta-richer-web-on-android.html
+ - https://blog.chromium.org/2013/07/chrome-29-beta-web-audio-and-webrtc-in.html
+ - https://blog.chromium.org/2013/04/chrome-27-beta-speedier-web-and-new.html
+ - https://blog.chromium.org/2013/02/chrome-26-beta-template-element.html
+ - https://blog.chromium.org/2013/01/content-security-policy-and-shadow-dom.html
+ - https://blog.chromium.org/2012/11/a-web-developers-guide-to-latest-chrome.html
+
 
 
 ### Firefox
