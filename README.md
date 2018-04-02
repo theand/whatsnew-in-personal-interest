@@ -179,6 +179,7 @@ by version
 TODO
 
 entry point
+ - https://docs.oracle.com/javase/10/
  - https://docs.oracle.com/javase/9/
  - https://docs.oracle.com/javase/8/
  - https://docs.oracle.com/javase/7/docs/index.html
@@ -189,7 +190,7 @@ by version
 
 
 10
-
+ - https://blogs.oracle.com/java-platform-group/introducing-java-se-10
 
 9
  - https://docs.oracle.com/javase/9/whatsnew/toc.htm
@@ -202,7 +203,7 @@ by version
  - https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/index.html
 
 7
-
+ - http://www.oracle.com/technetwork/java/javase/jdk7-relnotes-418459.html
 
 6
 
