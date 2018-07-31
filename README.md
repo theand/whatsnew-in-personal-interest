@@ -21,6 +21,7 @@
     + [Laravel](#laravel)
     + [vue.js](#vuejs)
     + [Netty](#netty)
+    + [Flask](#flask)
     + [Node.js](#nodejs)
     + [Electron](#electron)
   * [DB](#db)
@@ -54,8 +55,12 @@
     + [Opera](#opera)
     + [IE/Edge](#ieedge)
   * [Library](#library)
+    + [lombok](#lombok)
     + [JUnit](#junit)
+    + [Awaitility](#awaitility)
+    + [moment.js](#momentjs)
     + [jQuery](#jquery)
+    + [d3](#d3)
     + [RxJS](#rxjs)
     + [Apache Commons](#apache-commons)
     + [Apache Taglibs](#apache-taglibs)
@@ -63,12 +68,15 @@
     + [Guava](#guava)
     + [Atomikos Transactions](#atomikos-transactions)
     + [MyBatis](#mybatis)
+    + [Jackson](#jackson)
     + [Underscore.js](#underscorejs)
     + [lodash](#lodash)
     + [Log4j 2](#log4j-2)
     + [Redisson](#redisson)
     + [Codeception](#codeception)
     + [Guzzle](#guzzle)
+    + [Tensorflow](#tensorflow)
+    + [Rspec](#rspec)
   * [Editor/IDE](#editoride)
     + [vim](#vim)
     + [Sublime Text](#sublime-text)
@@ -113,6 +121,8 @@
     + [JMC (Java Mission Control)](#jmc-java-mission-control)
     + [Tadpole DB Hub](#tadpole-db-hub)
     + [Alfred](#alfred)
+    + [Jupyter Notebook](#jupyter-notebook)
+    + [Apache JMeter](#apache-jmeter)
 
 <!-- tocstop -->
 
@@ -191,6 +201,8 @@ by version
 
 10
  - https://blogs.oracle.com/java-platform-group/introducing-java-se-10
+ - http://openjdk.java.net/projects/jdk/10/rc
+ - https://dzone.com/articles/jdk-10-release-candidate-phase
 
 9
  - https://docs.oracle.com/javase/9/whatsnew/toc.htm
@@ -259,8 +271,12 @@ TODO
  - https://github.com/Microsoft/TypeScript/wiki/Breaking-Changes
  - https://github.com/Microsoft/TypeScript/wiki/API-Breaking-Changes
  - https://github.com/Microsoft/TypeScript/releases
+ - https://blogs.msdn.microsoft.com/typescript/
 
 by version
+
+ - https://blogs.msdn.microsoft.com/typescript/2018/07/30/announcing-typescript-3-0/
+
 
  - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-6.html
  - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-5.html
@@ -385,13 +401,13 @@ entry point
 by version
 
  - http://railsapps.github.io/rails-release-history.html
-
+ - https://www.driftingruby.com/episodes/ruby-on-rails-5-1-0-changes-and-new-features
 
 TODO
  - http://weblog.rubyonrails.org/releases/
 
 
- - http://edgeguides.rubyonrails.org/5_2_release_notes.html
+ - http://guides.rubyonrails.org/5_2_release_notes.html
  - http://guides.rubyonrails.org/5_1_release_notes.html
  - http://guides.rubyonrails.org/5_0_release_notes.html
 
@@ -440,10 +456,18 @@ by version
  - https://github.com/laravel/framework/blob/5.5/CHANGELOG-5.3.md
  - https://github.com/laravel/framework/blob/5.5/CHANGELOG-5.2.md
 
+ - http://laravel-news.com/2014/09/laravel-5-0-blade-changes/
+
 ### vue.js
 entry point
 
 by version
+
+2.5
+ - https://gist.github.com/yyx990803/9bdff05e5468a60ced06c29c39114c6b
+ - https://laravel-news.com/vue-2-5
+ - https://github.com/vuejs/vue/releases/tag/v2.5.0
+ - https://medium.com/the-vue-point/vue-2-5-released-14bd65bf030b
 
 TODO
 
@@ -464,6 +488,15 @@ TODO
  - http://netty.io/wiki/new-and-noteworthy-in-4.1.html
  - http://netty.io/wiki/new-and-noteworthy-in-4.0.html
 
+
+### Flask
+entry point
+
+ - http://flask.pocoo.org/docs/1.0/changelog/
+
+by version
+
+
 ### Node.js
 entry point
 
@@ -479,11 +512,12 @@ TODO
 ### Electron
 entry point
 
+ - https://electronjs.org/releases
+ - https://github.com/electron/electron/releases
+
 by version
 
-
- - https://electronjs.org/releases
-
+ - https://github.com/electron/electron/releases/tag/v2.0.0
 
 ----
 
@@ -524,6 +558,8 @@ TODO
  - https://dev.mysql.com/doc/refman/5.7/en/upgrading-from-previous-series.html
  - https://dev.mysql.com/doc/refman/5.6/en/upgrading-from-previous-series.html
  - https://dev.mysql.com/doc/refman/5.5/en/upgrading-from-previous-series.html
+
+ - https://mysqlserverteam.com/whats-new-in-mysql-8-0-generally-available/
 
 ### MariaDB
 entry point
@@ -832,13 +868,15 @@ by version
 
  - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_11_1.html#//apple_ref/doc/uid/TP40014305-CH14-SW1
  - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_11_0.html#//apple_ref/doc/uid/TP40014305-CH13-SW1
- - https://webkit.org/blog/7956/new-webkit-features-in-safari-11/
  - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_1.html#//apple_ref/doc/uid/TP40014305-CH12-SW1
- - https://webkit.org/blog/7477/new-web-features-in-safari-10-1/
  - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_0.html#//apple_ref/doc/uid/TP40014305-CH11-SW1
+ - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_9_1.html#//apple_ref/doc/uid/TP40014305-CH10-SW1
+
+ - https://webkit.org/blog/8216/new-webkit-features-in-safari-11-1/
+ - https://webkit.org/blog/7956/new-webkit-features-in-safari-11/
+ - https://webkit.org/blog/7477/new-web-features-in-safari-10-1/
  - https://webkit.org/blog/7367/new-interaction-behaviors-in-ios-10/
  - https://webkit.org/blog/6900/webdriver-support-in-safari-10/
- - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_9_1.html#//apple_ref/doc/uid/TP40014305-CH10-SW1
  - https://webkit.org/blog/6008/new-web-features-in-safari/
 
  - https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_9_0.html#//apple_ref/doc/uid/TP40014305-CH9-SW5
@@ -854,6 +892,9 @@ entry point
  - https://webkit.org/blog/6017/introducing-safari-technology-preview/
 
 by version
+ - https://webkit.org/blog/8284/release-notes-for-safari-technology-preview-55/
+ - https://webkit.org/blog/8232/release-notes-for-safari-technology-preview-54/
+ - https://webkit.org/blog/8179/release-notes-for-safari-technology-preview-53/
  - https://webkit.org/blog/8165/release-notes-for-safari-technology-preview-52/
  - https://webkit.org/blog/8136/release-notes-for-safari-technology-preview-51/
  - https://webkit.org/blog/8121/release-notes-for-safari-technology-preview-50/
@@ -911,6 +952,7 @@ by version
 entry point
  - https://chromereleases.googleblog.com/
  - https://www.chromium.org/developers/calendar
+ - https://www.chromestatus.com/features/schedule
 
  - https://developers.google.com/web/updates/
  - https://developers.google.com/web/updates/2018/
@@ -980,7 +1022,6 @@ by version
 
 
 TODO
-- chromium
 - v8
 
 #### Chrome DevTools
@@ -994,6 +1035,8 @@ entry point
 
 by version
 
+67
+ - https://developers.google.com/web/updates/2018/04/devtools
 
 66
  - https://developers.google.com/web/updates/2018/02/devtools
@@ -1140,16 +1183,42 @@ TODO
 ## Library
 
 
+### lombok
+entry point
+ - https://projectlombok.org/changelog
+
+by version
+
+
 ### JUnit
 entry point
 
 by version
 
 
+ - https://junit.org/junit5/docs/5.1.0/release-notes/
  - http://junit.org/junit5/docs/5.0.0/user-guide/#release-notes
  - http://junit.org/junit5/docs/5.0.0/user-guide/#migrating-from-junit4
 
  - https://github.com/junit-team/junit4/tree/master/doc
+
+### Awaitility
+
+entry point
+
+ - https://github.com/awaitility/awaitility/blob/master/changelog.txt
+
+by version
+
+
+### moment.js
+entry point
+
+ - https://github.com/moment/moment/blob/develop/CHANGELOG.md
+
+by version
+
+
 
 
 ### jQuery
@@ -1163,6 +1232,13 @@ TODO
  - https://gist.github.com/teppeis/9264080
 
  - http://blog.jquery.com/2014/12/18/jquery-1-11-2-and-2-1-3-released-safari-fail-safe-edition/
+
+### d3
+entry point
+ - https://github.com/d3/d3/blob/master/CHANGES.md
+
+by version
+
 
 ### RxJS
 entry point
@@ -1242,6 +1318,15 @@ by version
 
  - https://github.com/mybatis/mybatis-3/releases
 
+### Jackson
+
+entry point
+
+by version
+
+TODO
+ - https://github.com/FasterXML/jackson/wiki/Jackson-Releases
+
 
 ### Underscore.js
 entry point
@@ -1292,6 +1377,20 @@ entry point
 by version
 
  - https://github.com/guzzle/guzzle/blob/master/CHANGELOG.md
+
+### Tensorflow
+
+entry point
+ - https://github.com/tensorflow/tensorflow/releases/
+
+### Rspec
+
+entry point
+
+by version
+
+TODO
+ - https://github.com/plaredspear/learning/blob/master/rspec/rspec-3-3-has-been-released.md
 
 ----
 
@@ -1686,6 +1785,25 @@ by version
 entry point
 
 by version
+
+### Jupyter Notebook
+
+entry point
+
+by version
+
+TODO
+ - https://jupyter-notebook.readthedocs.io/en/stable/changelog.html
+
+
+### Apache JMeter
+
+entry point
+
+by version
+
+TODO
+ - http://jmeter.apache.org/changes.html
 
 
 -----
