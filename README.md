@@ -4,8 +4,6 @@
 
  - what's new, release notes, change logs, migration guides
 
-## Misc. Tools(GUI, CLI, WebApp)
-
 -----
 Generating TOC
 
@@ -15,5 +13,6 @@ markdown-toc README.md -i
 ```
 
 
+-----
 reference.
  - https://allmychanges.com/p/
