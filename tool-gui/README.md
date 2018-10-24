@@ -1,5 +1,4 @@
-{{TOC}}
-
+<!-- toc -->
 
 ## GUI Tool
 

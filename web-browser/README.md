@@ -1,5 +1,4 @@
-{{TOC}}
-
+<!-- toc -->
 
 ## Web Browsers
 
