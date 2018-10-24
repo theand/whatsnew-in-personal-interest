@@ -1,4 +1,22 @@
+
+
 <!-- toc -->
+
+- [Editor/IDE](#editoride)
+  * [vim](#vim)
+  * [Sublime Text](#sublime-text)
+  * [Atom](#atom)
+  * [VS Code](#vs-code)
+  * [Eclipse](#eclipse)
+  * [JetBrains](#jetbrains)
+    + [IntelliJ](#intellij)
+    + [WebStorm](#webstorm)
+    + [RubyMine](#rubymine)
+    + [PyCharm](#pycharm)
+    + [PHPStorm](#phpstorm)
+    + [datagrip](#datagrip)
+
+<!-- tocstop -->
 
 ## Editor/IDE
 

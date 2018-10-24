@@ -1,4 +1,21 @@
+
+
 <!-- toc -->
+
+- [Web Server / Web Application Server / Web Container / Gateway Interface](#web-server--web-application-server--web-container--gateway-interface)
+  * [HTTP RFC](#http-rfc)
+  * [Apache HTTPD](#apache-httpd)
+  * [nginx](#nginx)
+  * [Java Servlet](#java-servlet)
+    + [Apache Tomcat](#apache-tomcat)
+    + [AJP](#ajp)
+  * [Python WSGI](#python-wsgi)
+    + [uWSGI](#uwsgi)
+  * [Ruby rack](#ruby-rack)
+    + [Phusion Passenger](#phusion-passenger)
+  * [CGI / FCGI(FastCGI)](#cgi--fcgifastcgi)
+
+<!-- tocstop -->
 
 ## Web Server / Web Application Server / Web Container / Gateway Interface
 

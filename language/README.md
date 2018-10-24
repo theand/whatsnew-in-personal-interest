@@ -1,5 +1,18 @@
+
+
 <!-- toc -->
 
+- [Language](#language)
+  * [Ruby](#ruby)
+  * [Python](#python)
+  * [Java (Java SE)](#java-java-se)
+  * [Kotlin](#kotlin)
+  * [GO](#go)
+  * [JS](#js)
+  * [TypeScript](#typescript)
+  * [PHP](#php)
+
+<!-- tocstop -->
 
 ## Language
 
