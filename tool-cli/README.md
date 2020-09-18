@@ -141,6 +141,8 @@ entry point
 by version
 
  - https://github.com/bundler/bundler/blob/master/CHANGELOG.md
+ - https://github.com/bundler/bundler/releases/v1.17.0
+
 
 ### Maven
 entry point

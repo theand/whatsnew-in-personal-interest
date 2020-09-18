@@ -296,6 +296,8 @@ by version
 TODO
  - https://www.mozilla.org/en-US/firefox/releases/
  - https://www.mozilla.org/en-US/firefox/notes/
+ - https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases
+ - https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/63
 
 ### Opera
 entry point

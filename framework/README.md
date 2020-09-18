@@ -62,7 +62,7 @@ entry point
 by version
 
 
-
+ - https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.1-Release-Notes
  - https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Release-Notes
  - https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Configuration-Changelog
  - https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Migration-Guide
